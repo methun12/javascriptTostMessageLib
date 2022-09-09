@@ -65,10 +65,10 @@ let Toast=function(){
     		 document.head.appendChild(scrp)`
   }
   this.show=(message)=>{
-    m(message);
+    tostM(message);
   }
 }
-let m=(message)=>{
+let tostM=(message)=>{
   var x = document.getElementById(idn);
       x.innerText=message;
 		  x.className = "show";
